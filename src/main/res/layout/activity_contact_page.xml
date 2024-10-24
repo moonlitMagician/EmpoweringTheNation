@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupPage"
+    android:background="@drawable/background_image">
+
+    <ImageView
+        android:id="@+id/logoBanner"
+        android:layout_width="452dp"
+        android:layout_height="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logobanner" />
+
+    <TextView
+        android:id="@+id/contactTitle"
+        android:layout_width="319dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/panton_black_caps"
+        android:text="Contact us"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoBanner"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/contactContent"
+        android:layout_width="330dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/panton_black_caps"
+        android:text="Have questions or need assistance? We’re here to help!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoBanner"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <TextView
+        android:id="@+id/contactContentInfo"
+        android:layout_width="343dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/panton_black_caps"
+        android:text="Email: \nsupport@empoweringthenation.co.za\n
+        \nPhone:\n +27 87 123 4567
+        \n\n Our support team is available Monday to Friday, 9 AM to 5 PM."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoBanner"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <Button
+        android:id="@+id/contactHome"
+        android:layout_width="158dp"
+        android:layout_height="74dp"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/panton_black_caps"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactTitle"
+        app:layout_constraintVertical_bias="0.928" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
